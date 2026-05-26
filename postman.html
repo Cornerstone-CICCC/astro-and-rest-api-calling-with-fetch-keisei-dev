@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>WAD202 — Posts API (quick reference)</title>
+  </head>
+  <body>
+    <h1>Posts API</h1>
+    <p>Start the backend first (<code>cd backend && npm run dev</code>). Base URL:</p>
+    <p><code>http://localhost:3001</code></p>
+    <ul>
+      <li><strong>GET</strong> /posts — list all</li>
+      <li><strong>GET</strong> /posts/:id — one post</li>
+      <li><strong>POST</strong> /posts — JSON body: title, body, userId</li>
+      <li><strong>PUT</strong> /posts/:id — JSON body: title, body, userId</li>
+      <li><strong>PATCH</strong> /posts/:id — JSON body: any subset of fields</li>
+      <li><strong>DELETE</strong> /posts/:id</li>
+    </ul>
+  </body>
+</html>
